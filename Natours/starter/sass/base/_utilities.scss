@@ -1,21 +1,26 @@
 .u-center-text {
-  text-align: center;
+  text-align: center !important;
 }
 
 .u-margin- {
   &bottom-small {
+    text-align: center !important;
     margin-bottom: 1.5rem;
   }
   &bottom-medium {
+    text-align: center !important;
     margin-bottom: 4rem;
   }
   &bottom-big {
+    text-align: center !important;
     margin-bottom: 8rem;
   }
   &top-big {
+    text-align: center !important;
     margin-top: 8rem;
   }
   &top-huge {
+    text-align: center !important;
     margin-top: 10rem;
   }
 }

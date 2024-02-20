@@ -8,14 +8,15 @@
 
 html {
   // This defines what 1rem is = 10px
+  // Always put the larger Media Queries first
   font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
-
-  @include respond(tab-port) {
-    font-size: 50%; // 1 rem = 8px, 8/16 = 50%
-  }
 
   @include respond(tab-land) {
     font-size: 56.25%; // 1 rem = 9px, 9/16 = 56.25%
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%; // 1 rem = 8px, 8/16 = 50%
   }
 
   @include respond(big-desktop) {

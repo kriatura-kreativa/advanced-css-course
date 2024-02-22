@@ -10,10 +10,18 @@
   &bottom-medium {
     text-align: center !important;
     margin-bottom: 4rem;
+
+    @include respond(tab-port) {
+      margin-bottom: 3rem !important;
+    }
   }
   &bottom-big {
     text-align: center !important;
     margin-bottom: 8rem;
+
+    @include respond(tab-port) {
+      margin-bottom: 5rem !important;
+    }
   }
   &top-big {
     text-align: center !important;
